@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/pp0alm?serverTimezone=GMT-5&allowMultiQueries=true # allow multi queries
+    # url: jdbc:mysql://localhost:3306/pp0alm?useSSL
+    username: root
+    password: "000000"  # my password
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
